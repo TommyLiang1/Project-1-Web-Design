@@ -156,16 +156,16 @@ span {
     margin-top:20px;
   }
   
-  .column {
+.column {
     flex: 20%;
     padding: 0 4px;
-  }
-  
-  .column img {
-    vertical-align: middle;
-  }
+}
 
-  .overlay {
+.column img {
+    vertical-align: middle;
+}
+
+.overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -176,19 +176,18 @@ span {
     opacity: 0;
     transition: .5s ease;
     background-color: #9B9B7A;
-  }
-  
-  .img-container {
+}
+
+.img-container {
     position: relative;
     margin-top: 8px;
+}
 
-  }
-  
-  .img-container:hover .overlay {
+.img-container:hover .overlay {
     opacity: .90;
-  }
+}
 
-  .text {
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -198,13 +197,13 @@ span {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+}
 
-  .gal-title{
+.gal-title{
     font-size: 40px;
     text-align: center;
-  }
+}
 
-  .gal-desc{
-      text-align: center;
-  }
+.gal-desc{
+    text-align: center;
+}
